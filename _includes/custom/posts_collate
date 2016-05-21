@@ -39,7 +39,7 @@ http://stackoverflow.com/a/28157613
       <li>
         <span class="force-mono-font small">{{ post.date | date: "%b %d" }}</span>
         &middot;
-        <a href="{{post.url}}">{{post.title}}</a>
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{post.title}}</a>
       </li>
 
       {% if forloop.last %}
