@@ -20,7 +20,7 @@
         {% if node.title != null %}
           {% if "navigation" == node.group %}
               <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
-                href="{{ node.url }}">{{ node.title }}</a>
+                href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -33,7 +33,7 @@
     </span>
     <span class="sidebar-nav-item">
       <span class="force-mono-font">&#9825;</span> Themed by <a href="http://hyde.getpoole.com/">Hyde</a> &middot;
-      <a href="/credits">Credits</a>
+      <a href="{{ BASE_PATH }}/credits">Credits</a>
     </span>
   </div>
 </div>
