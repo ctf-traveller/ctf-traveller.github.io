@@ -16,13 +16,13 @@ kramdown:
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Code this.
-tagline: Any Thoughts During Code this
+title : CHANGE
+tagline: CHANGE
 # description:
 author :
-  name : Scott
-  email : scozv@yandex.com
-  github : //github.com/scozv
+  name : Florent
+  email : aikari.itsec@gmail.com
+  github : //github.com/ctf-traveller
 #  twitter : username
 #  feedburner : feedname
 
@@ -34,12 +34,12 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://scozv.github.io
+production_url : https://ctf-traveller.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
-  version : 0.3.0
+  version : 420.0
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
@@ -63,7 +63,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://scozv.github.io
+  BASE_PATH : https://ctf-traveller.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -91,7 +91,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : scozv
+      short_name : TEST
 #    livefyre :
 #      site_id : 123
 #    intensedebate :
@@ -106,15 +106,15 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider : yandex
-    yandex :
-       tracking_id : '25680314'
+#  analytics :
+#    provider : 
+#    yandex :
+#       tracking_id : ''
 #   google :
-#       tracking_id : 'UA-***'
+#       tracking_id : ''
 #    googleUA :
-#        tracking_id : 'UA-35340941-5'
-#        property_name: 'scozv.github.io'
+#        tracking_id : ''
+#        property_name: ''
 #    getclicky :
 #      site_id :
 #    mixpanel :
