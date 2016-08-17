@@ -16,8 +16,8 @@ kramdown:
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : CTF Travel
-tagline: CTF Travel
+title : My CTF Travel
+tagline: My CTF Travel
 # description:
 author :
   name : Aikari
