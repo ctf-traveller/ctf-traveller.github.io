@@ -10,7 +10,7 @@
     {% if page.title %}
       {{ page.title }} &middot; {{ site.title }}
     {% else %}
-      {{ site.tagline}} &middot; The Blog by {{ site.author.name }}
+      {{ site.tagline}} &middot; {{ site.author.name }}
     {% endif %}
   </title>
  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
