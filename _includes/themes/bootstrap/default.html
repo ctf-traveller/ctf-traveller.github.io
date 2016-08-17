@@ -6,7 +6,7 @@
 		{% if page.title %}
 			{{ page.title }} - {{ site.title }}
 		{% else %}
-			{{ site.tagline}} - The Blog by {{ site.author.name }}
+			{{ site.tagline}} - {{ site.author.name }}
 		{% endif %}
 	</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
