@@ -16,11 +16,11 @@ kramdown:
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : CTF Traveller
-tagline: CTF Traveller
+title : CTF Travel
+tagline: CTF Travel
 # description:
 author :
-  name : Aikari - CTF Traveller
+  name : Aikari
   email : aikari.itsec@gmail.com
   github : //github.com/ctf-traveller
 #  twitter : username
